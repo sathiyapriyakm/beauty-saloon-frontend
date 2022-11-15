@@ -1,4 +1,4 @@
-import "./css/doctor.css";
+import "./css/beautician.css";
 import { PersonCircle } from "react-bootstrap-icons";
 import Button from "react-bootstrap/Button";
 import { useSelector } from "react-redux";
@@ -8,8 +8,8 @@ function Beautician({ beautician }) {
   const { user } = useSelector((state) => state.auth);
   const navigate = useNavigate();
   return (
-    <div className="doctor">
-      {/* <PersonCircle className="doctorimg" /> */}
+    <div className="beautician">
+      {/* <PersonCircle className="beauticianimg" /> */}
       <img src={beautician.image} alt=" beautician image" 
           
           style={{
@@ -18,19 +18,19 @@ function Beautician({ beautician }) {
             objectFit:"cover"  
             // transform: isHovering ? "scale(1.1)": '',
           }}/>
-      <div className="doctorinfo">
-        <div className="doctorcat">
+      <div className="beauticianinfo">
+        <div className="beauticiancat">
           <div>Dept:- {beautician.department}</div>
           <div className="exp"> Exp: {beautician.experience} years</div>
         </div>
-        <span className="doctortitle">
+        <span className="beauticiantitle">
           {beautician.firstname} <span></span>
           {beautician.lastname}
           <samp className="education"> {beautician.education}</samp>
         </span>
       </div>
-      <p className="doctordescription">
-        Very Experience doctor with Lorem ipsum dolor, sit amet consectetur
+      <p className="beauticiandescription">
+        Very Experience beautician with Lorem ipsum dolor, sit amet consectetur
         adipisicing elit. Iste quam, vitae et quia eaque aut obcaecati ea. Sequi
         corporis, nam at, repellat placeat doloribus vitae incidunt numquam
         deleniti corrupti rem. Lorem ipsum dolor sit amet consectetur

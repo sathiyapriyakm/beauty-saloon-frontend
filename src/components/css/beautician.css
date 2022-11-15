@@ -1,4 +1,4 @@
-.doctor {
+.beautician {
   width: 350px;
   margin: 10px 25px 40px 25px;
   text-align: center;
@@ -7,14 +7,14 @@
   padding: 1rem;
 }
 
-.doctorimg {
+.beauticianimg {
   width: 50%;
   height: 220px;
   object-fit: cover;
   border-radius: 1rem;
 }
 
-.doctorinfo {
+.beauticianinfo {
   border-top: 1px solid black;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-.doctorcat {
+.beauticiancat {
   font-size: 11px;
   line-height: 20px;
   margin-top: 1rem;
@@ -35,7 +35,7 @@
   width: 100%;
 }
 
-.doctortitle {
+.beauticiantitle {
   font-size: 24px;
   font-weight: 500;
   margin-top: 0.5rem;
@@ -47,12 +47,12 @@
   cursor: default;
 }
 
-.doctordate {
+.beauticiandate {
   font-style: italic;
   font-size: 13px;
   color: cornflowerblue;
 }
-.doctordescription {
+.beauticiandescription {
   font-size: 14px;
   line-height: 2rem;
   margin-top: 1rem;

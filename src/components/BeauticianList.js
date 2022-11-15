@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import {useEffect} from "react";
 import { useParams } from "react-router-dom";
-import "./css/doctorlist.css";
+import "./css/beauticianlist.css";
 import Beautician from "./Beautician";
 import { useDispatch } from "react-redux";
 import { setBeauticianList } from "../features/beauticianSlice";
